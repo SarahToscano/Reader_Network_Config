@@ -6,7 +6,7 @@
 3
 #Type of component
 1
-#inductances (Transmission Line)
+#impedance (Transmission Line)
 1.2957+3.1914j 
 0.4674+1.3104j
 #Input bar, input node, output bar, output node - component [X]
@@ -24,7 +24,7 @@
 3
 #Type of component (Transfor)
 2
-#inductances
+#impedance
 1.1+0.5j 
 1.1+0.5j 
 0.7+0.3j 

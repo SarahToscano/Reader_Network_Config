@@ -17,7 +17,7 @@ def get_data():
     max_nodes = max(num_bar_nodes)
 
     n = components
-    m = max_nodes*number_bars + 2
+    m = max_nodes*number_bars + 1
     matrix = [[-1] * m for i in range(n)]
     j=3
     l=1
@@ -29,7 +29,7 @@ def get_data():
             matrix[i][0] = int(input_data[j][0])
             for k in range (j+1, j+6+(max_nodes*2)):
                 a=j            
-                if(k==a+1 or k == a+2): #inductances
+                if(k==a+1 or k == a+2): #impedance
                     matrix[i][l] = complex(input_data[k][0])
                 elif(k>=a+3 and k<=a+6): #Input Output bars and nodes
                     matrix[i][l] = int(input_data[k][0])
@@ -52,7 +52,7 @@ def get_data():
             matrix[i][0] = int(input_data[j][0])
             for k in range (j+1, j+10 +(max_nodes*2)):
                 a=j
-                if(k>=a+1 and k <= a+6): #inductances
+                if(k>=a+1 and k <= a+6): #impedance
                     matrix[i][l] =  complex(input_data[k][0])
                 elif(k>=a+7 and k<=a+10): #Input Output bars and nodes
                     matrix[i][l] = int(input_data[k][0])
@@ -107,19 +107,19 @@ def get_data():
     time = [float(array_list) for array_list in input_data[size-2]]
     currents = [float(array_list) for array_list in input_data[size-1]]
 
-    logging.info(GREEN)
-    logging.info("DATASOURCE READ COMPLETED..." )
-    logging.info(YELLOW)
-    logging.info("Circuit Data:")
-    for i in range(0, components):
-        logging.info(f'{matrix[i]}')
-    logging.info(CIAN)
-    logging.info(f'Time: {time}')
-    logging.info(f'Currents: {currents}')
+    
+    #logging.info(GREEN)
+    #logging.info("DATASOURCE READ COMPLETED..." )
+    #logging.info(YELLOW)
+    #logging.info("Circuit Data:")
+    #for i in range(0, components):
+    #    logging.info(f'{matrix[i]}')
+    #logging.info(CIAN)
+    #logging.info(f'Time: {time}')
+    #logging.info(f'Currents: {currents}')
 
-    return (matrix, time, currents)
+    return (matrix, time, currents, components)
 
-get_data()
 
 
 
