@@ -1,0 +1,107 @@
+Quantidade de Barras: 4 (b)
+
+Digite a quantidade de nós conectados da Barra [10]: 3 (B[,])
+
+Digite a quantidade de nós conectados da Barra [20]: 3 (B[,])
+
+Digite a quantidade de nós conectados da Barra [30]: 3 (B[,])
+
+Digite a quantidade de nós conectados da Barra [40]: 4 (B[,])
+
+Quantidade de Componentes: 3 (c)
+
+Digite o número da Barra conectada ao Componente [1] (Entrada): 10 (C1[,])
+
+Digite o número de nós conectados ao Componente [1] (Entrada): 3 (C[,])
+
+Digite o número da Barra conectada ao Componente [1] (Saída): 20 (C1[,])
+
+Digite o número de nós conectados ao Componente [1] (Saída): 3 (C[,])
+
+Digite os números dos nós da Barra [10] conectados ao Componente [1] (Entrada): 1 (C2[])
+
+Digite os números dos nós da Barra [10] conectados ao Componente [1] (Entrada): 2 (C2[])
+
+Digite os números dos nós da Barra [10] conectados ao Componente [1] (Entrada): 3 (C2[])
+
+Digite os números dos nós da Barra [20] conectados ao Componente [1] (Saída): 1 (C2[])
+
+Digite os números dos nós da Barra [20] conectados ao Componente [1] (Saída): 2 (C2[])
+
+Digite os números dos nós da Barra [20] conectados ao Componente [1] (Saída): 3 (C2[])
+
+De que tipo é o Componente [1]? Digite 1 para Linha de Transmissão, 2 para transformador ou 3 para carga => 1 (T[])
+
+Digite a impedância própria: 1.2957+3.1914j (ZP)
+
+Digite a impedância mútua: 0.4674+1.3104j   (ZM)
+
+Digite o número da Barra conectada ao Componente [2] (Entrada): 20 (C1[,])
+
+Digite o número de nós conectados ao Componente [2] (Entrada): 3 (C[,])
+
+Digite o número da Barra conectada ao Componente [2] (Saída): 30 (C1[,])
+
+Digite o número de nós conectados ao Componente [2] (Saída): 3 (C[,])
+
+Digite os números dos nós da Barra [20] conectados ao Componente [2] (Entrada): 1 (C2[])
+
+Digite os números dos nós da Barra [20] conectados ao Componente [2] (Entrada): 2 (C2[])
+
+Digite os números dos nós da Barra [20] conectados ao Componente [2] (Entrada): 3 (C2[])
+
+Digite os números dos nós da Barra [30] conectados ao Componente [2] (Saída): 1 (C2[])
+
+Digite os números dos nós da Barra [30] conectados ao Componente [2] (Saída): 2 (C2[])
+
+Digite os números dos nós da Barra [30] conectados ao Componente [2] (Saída): 3 (C2[])
+
+De que tipo é o Componente [2]? Digite 1 para Linha de Transmissão, 2 para transformador ou 3 para carga => 2 (T[])
+
+Digite o valor da impedância do enrolamento primário: 1.1+0.5j (zp)
+
+Digite o valor da impedância do enrolamento secundário: 1.1+0.5j (zs)
+
+Digite o valor da impedância mútua entre os enrolamentos: 0.7+0.3j (zm)
+
+Digite o valor da impedância mútua entre as bobinas do enrolamento primário: 0.4+0.2j (zm1)
+
+Digite o valor da impedância mútua entre as bobinas dos enrolamentos primário e secundário: 0.5+0.6j (zm2)
+
+Digite o valor da impedância mútua entre as bobinas do enrolamento secundário: 0.4+0.4j (zm3)
+
+Digite o número da Barra conectada ao Componente [3] (Entrada): 30 (C1[,])
+
+Digite o número de nós conectados ao Componente [3] (Entrada): 3 (C[,])
+
+Digite o número da Barra conectada ao Componente [3] (Saída): 0 (C1[,])
+
+Digite o número de nós conectados ao Componente [3] (Saída): 0 (C[,])
+
+Digite os números dos nós da Barra [30] conectados ao Componente [3] (Entrada): 1 (C2[])
+
+Digite os números dos nós da Barra [30] conectados ao Componente [3] (Entrada): 2 (C2[])
+
+Digite os números dos nós da Barra [30] conectados ao Componente [3] (Entrada): 3 (C2[])
+
+De que tipo é o Componente [3]? Digite 1 para Linha de Transmissão, 2 para transformador ou 3 para carga => 3 (T[])
+
+Digite o valor da potência nominal (Watts): 900 (pa)
+
+Digite o fator de potência:  0.47 (fp)
+
+Digite o valor da tensão nominal da carga (Volts): 220 (vn)
+
+De que tipo é a Carga [3]? Digite 1 para Estrela Aterrada ou 2 para Triângulo => 1 (CA)
+
+Tempo inicial: 0.0 (t0)
+
+Tempo final: 3.0 (tf)
+
+Intervalo de Tempo: 0.5 (dt)
+
+Digite o valor da corrente fornecida ao nó [1] da barra de entrada: 55 (D[])
+
+Digite o valor da corrente fornecida ao nó [2] da barra de entrada: 55 (D[])
+
+Digite o valor da corrente fornecida ao nó [3] da barra de entrada: 55 (D[])
