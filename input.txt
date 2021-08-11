@@ -4,30 +4,46 @@
 3 3 3 4
 #Number of components
 3
-#Input bar, input node, output bar, output node - component [X]
-10 3 20 3
-#NodesID of bar [X] connected to component [X] (input)
-1 2 3
-#NodesID of bar [X] connected to component [X] (output)
-1 2 3
 #Type of component
 1
 #inductances (Transmission Line)
-1.2957+3.1914j 0.4674+1.3104j
+1.2957+3.1914j 
+0.4674+1.3104j
 #Input bar, input node, output bar, output node - component [X]
-20 3 30 3
+10 
+3
+20 
+3
 #NodesID of bar [X] connected to component [X] (input)
-1 2 3
+1 
+2 
+3
 #NodesID of bar [X] connected to component [X] (output)
-1 2 3
+1 
+2 
+3
 #Type of component (Transfor)
 2
 #inductances
-1.1+0.5j 1.1+0.5j 0.7+0.3j 0.4+0.2j 0.5+0.6j 0.4+0.4j 
+1.1+0.5j 
+1.1+0.5j 
+0.7+0.3j 
+0.4+0.2j 
+0.5+0.6j 
+0.4+0.4j 
 #Input bar, input node, output bar, output node - component [X]
-30 3 0 0
+20 
+3
+30 
+3
 #NodesID of bar [X] connected to component [X] (input)
-1 2 3
+1 
+2 
+3
+#NodesID of bar [X] connected to component [X] (output)
+1 
+2 
+3
 #Type of component (Load)
 3
 #Nominal Power
@@ -38,6 +54,15 @@
 220
 #Load Type
 1
+#Input bar, input node, output bar, output node - component [X]
+30 
+3 
+0 
+0
+#NodesID of bar [X] connected to component [X] (input)
+1 
+2 
+3
 #Time
 0.0 3.0 0.5
 #Nodes Currents

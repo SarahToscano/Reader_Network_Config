@@ -8,7 +8,7 @@ logging.getLogger().setLevel(logging.INFO)
 
 def get_data():
     input_data = []
-    for line in [l.strip() for l  in open('input_copy.txt') if not l.startswith('#')]:
+    for line in [l.strip() for l  in open('input.txt') if not l.startswith('#')]:
         input_data.append(line.split())
 
     number_bars=int(input_data[0][0])
